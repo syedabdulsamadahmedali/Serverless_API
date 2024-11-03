@@ -57,52 +57,6 @@ module.exports = async function (context, req) {
                     body: newUser,
                 };
                 break;
-            case 'PUT':
-                const updatedUser = req.body;
-                if (!updatedUser.id || !updatedUser.name || !updatedUser.email) {
-                    context.res = {
-                        status: 400,
-                        body: "Please provide id, name, and email.",
-                    };
-                    return;
-                }
-                const index = users.findIndex(u => u.id === updatedUser.id);
-                if (index !== -1) {
-                    users[index] = updatedUser;
-                    context.res = {
-                        status: 200,
-                        body: "User updated successfully.",
-                    };
-                } else {
-                    context.res = {
-                        status: 404,
-                        body: "User not found.",
-                    };
-                }
-                break;
-            case 'DELETE':
-                const deleteId = req.query.id;
-                if (!deleteId) {
-                    context.res = {
-                        status: 400,
-                        body: "Please provide user id to delete.",
-                    };
-                    return;
-                }
-                const deleteIndex = users.findIndex(u => u.id === parseInt(deleteId));
-                if (deleteIndex !== -1) {
-                    users.splice(deleteIndex, 1);
-                    context.res = {
-                        status: 200,
-                        body: "User deleted successfully.",
-                    };
-                } else {
-                    context.res = {
-                        status: 404,
-                        body: "User not found.",
-                    };
-                }
-                break;
             default:
                 context.res = {
                     status: 405,
