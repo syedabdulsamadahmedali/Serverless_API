@@ -1,10 +1,9 @@
-# Testing the API
+# Testing the CRUD Application
 
 The following sections provide details on testing API functionality using **Postman**.
 
 ## 1. GET `/users`
 Retrieve all users.
-
 
 ### Testing GET in Postman
 1. Navigate to Sam-0073/Web_API_Design/blob/main/MyAnonymousFunction/Application.txt
