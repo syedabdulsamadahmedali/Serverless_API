@@ -1,0 +1,1 @@
+https://azurefunctionapi2.azurewebsites.net/api/HttpTrigger1?code=XGBgJzigc-uztxzQPWfmJsdJ6M3gASnow9E7UnWE4XnlAzFuvUBEWA%3D%3D
