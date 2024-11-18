@@ -1,1 +1,0 @@
-Link to the Application https://azurefunctionapi2.azurewebsites.net/api/MyAnonymousFunction
