@@ -11,4 +11,4 @@ This repository contains the source code and documentation for testing two serve
 - **Visual Studio Code** for development
 - **GitHub** for version control
 
-- **The instructions for testing each application is provided in the Execute.txt file under each folder**
+**The instructions for testing each application is provided in the Execute.txt file under each folder**
