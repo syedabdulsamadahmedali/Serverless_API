@@ -6,7 +6,7 @@ The following sections provide details on testing API functionality using **Post
 Retrieve all users.
 
 ### Testing GET in Postman
-1. Navigate to Sam-0073/Web_API_Design/blob/main/MyAnonymousFunction/Application.txt
+1. Navigate to CRUD_Application/Application.txt
 2. Copy the Application link and paste it in Postman URL field
 3. Set the request type to `GET`.
 4. Hit Send button
@@ -16,12 +16,15 @@ Add a new user.
 
 ### Request Body example in JSON
 {
+
   "name": "Sam",
+  
   "email": "sam@unb.ca"
+  
 }
 
 ### Testing POST in Postman
-1. Navigate to Sam-0073/Web_API_Design/blob/main/MyAnonymousFunction/Application.txt
+1. Navigate to CRUD_Application/Application.txt
 2. Copy the Application link and paste it in Postman URL field
 3. Set the request type to POST.
 4. Go to the Body tab, select raw, and set the format to JSON.
@@ -32,7 +35,7 @@ Add a new user.
 Edit the details of user.
 
 ### Testing PUT in Postman
-1. Navigate to Sam-0073/Web_API_Design/blob/main/MyAnonymousFunction/Application.txt
+1. Navigate to CRUD_Application/Application.txt
 2. Copy the Application link and paste it in Postman URL field
 3. Set the request type to PUT.
 4. Go to the Body tab, select raw, and set the format to JSON.
@@ -44,7 +47,7 @@ Edit the details of user.
 Delete a user.
 
 ### Testing DELETE in Postman
-1. Navigate to Sam-0073/Web_API_Design/blob/main/MyAnonymousFunction/Application.txt
+1. Navigate to CRUD_Application/Application.txt
 2. Copy the Application link and paste it in Postman URL field
 3. Set the request type to DELETE.
 4. Copy the id of the user you want to delete.
