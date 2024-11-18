@@ -1,6 +1,6 @@
 # Web_API_Design
 
-This repository contains the source code and documentation for testing a serverless Web API application on Postman developed as part of a Web API Design course project. Built using **Azure Functions** and **JavaScript**, the API is designed to manage Create and Read functionality.
+This repository contains the source code and documentation for testing two serverless Web API application on Postman developed as part of a Web API Design course project. Built using **Azure Functions** and **JavaScript**, the API is designed to manage CRUD functionality and Sentiment Analysis.
 
 ## Features
 - **Serverless Architecture**: Deployed on Microsoft Azure using HTTP-triggered Azure Functions.
