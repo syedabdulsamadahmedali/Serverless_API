@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@azure/ai-language-text": "^1.1.0",
+    "@azure/ai-text-analytics": "^5.1.0",
+    "@azure/cosmos": "^4.1.1",
+    "@azure/data-tables": "^13.2.2",
+    "http-errors": "^2.0.0"
+  }
+}
