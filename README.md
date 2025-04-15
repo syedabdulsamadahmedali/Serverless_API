@@ -125,3 +125,9 @@ Expected response:
 ### Sentiment Analysis API:
 - **Average Response Time:** ~1.53 seconds.
 - **Variability:** Response times range from 90 ms to 3 seconds based on the load.
+
+---
+
+## 📚 References
+
+- [Azure Cloud](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources)
