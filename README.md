@@ -17,7 +17,7 @@ Azure’s resource hierarchy is used effectively:
 
 APIs are built using **HTTP-triggered functions**, deployed via Visual Studio Code, and monitored with Azure's **Application Insights**.
 
-![Azure Hierarchy]([https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/organize-resources.png])
+![Azure Hierarchy](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/organize-resources.png)
 
 ---
 
