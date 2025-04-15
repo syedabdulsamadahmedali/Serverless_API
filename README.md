@@ -1,6 +1,6 @@
 # 🌐 Serverless Web APIs with Microsoft Azure Functions
 
-This project demonstrates the design, development, deployment, and monitoring of two robust serverless APIs using Microsoft Azure Functions:
+This project demonstrates the design, development, deployment, and monitoring of two serverless APIs using Microsoft Azure Functions:
 
 - 🔄 **CRUD API** for user data operations
 - 🧠 **Sentiment Analysis API** leveraging Azure AI Language Services
@@ -10,10 +10,6 @@ It showcases how serverless computing can scale applications automatically, mini
 ---
 
 ## 🧱 Architecture
-
-Azure’s resource hierarchy is used effectively:
-
-- **Management Group → Subscription → Resource Group → Resources**
 
 APIs are built using **HTTP-triggered functions**, deployed via Visual Studio Code, and monitored with Azure's **Application Insights**.
 
